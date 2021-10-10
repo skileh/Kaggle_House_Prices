@@ -4,7 +4,7 @@ Repository for the shared development of the open competition House Prices on th
 # Resumo dos passos percorridos e conclusão
 Neste tópico, iremos descrever de forma breve todos os testes desenvolvidos e a metodologia de trabalho. A cima de cada função, é possivel encontrar sua descrição e como as implementamos.
 
-* Iniciamos nosso trabalho sumerisando os dados categoricos. Implementamos uma versão manual do label_encoder, uma para o one_hot_encoder e uma hibrida convertendo apenas categoricos com 4 ou menos campos.
+* Iniciamos nosso trabalho sumerizando os dados categoricos. Implementamos uma versão manual do label_encoder, uma para o one_hot_encoder e uma hibrida convertendo apenas categoricos com 4 ou menos campos.
 
 * Nosso primeiro desafio foi "tapar" os buracos deixados pela falta de dados (objetos .nan). Tentamos diversas metodologias, por exemplo, inserir a média dos dados, maximos, minimos, constante 0 e por fim a utilização do algoritmos KNN como auxilio.
 
